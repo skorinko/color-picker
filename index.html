@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Color Picker for Safari: every color on the web, in the format you need</title>
+  <meta name="description" content="A Safari extension for Mac, iPhone and iPad. Pick any pixel with a magnifier, or the exact CSS color of any element, and copy it as HEX, OKLCH, Display P3, SwiftUI, Tailwind and more. See a page's whole palette, with contrast checks. No data collected.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121116" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Color Picker for Safari">
+  <meta property="og:description" content="Pick any color on a web page and copy it in the format you need: HEX, OKLCH, Display P3, SwiftUI, Tailwind and more.">
+  <meta property="og:url" content="https://skorinko.github.io/color-picker/">
+  <meta property="og:image" content="https://skorinko.github.io/color-picker/img/og.jpg">
+  <link rel="canonical" href="https://skorinko.github.io/color-picker/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="img/icon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="img/icon.png" alt="">Color Picker</a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="hide-sm" href="#features">Features</a>
+      <a class="hide-sm" href="#pricing">Pricing</a>
+      <a class="hide-sm" href="#faq">FAQ</a>
+      <a href="demo.html">Try it</a>
+      <a href="support.html">Support</a>
+      <a class="btn btn-primary btn-small" href="#pricing">Get it</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <p class="eyebrow"><img src="img/icon.png" alt="">A Safari extension for Mac, iPhone and iPad</p>
+      <h1>Every color on the web, in the format you need.</h1>
+      <p class="lead">Point at a pixel in a photo, a button, a heading: Color Picker copies its exact color as HEX, OKLCH, Display P3, SwiftUI, a Tailwind class and more, and shows you how it reads against its background.</p>
+      <div class="cta">
+        <a class="btn btn-primary" data-buy="Buy on the App Store · €1.99" href="#pricing"><span data-buy-label>Coming soon to the App Store</span></a>
+        <a class="btn btn-ghost" href="demo.html">Try the demo page</a>
+      </div>
+      <p class="fine">€1.99 once, for Mac, iPhone and iPad · macOS 12 and iOS 16.4 or later · No data collected</p>
+
+      <div class="frame">
+        <div class="frame-bar">
+          <div class="frame-dots"><i></i><i></i><i></i></div>
+          <div class="frame-url">kilnhouse.example/glazes</div>
+          <div class="frame-spacer"></div>
+        </div>
+        <img src="img/hero.jpg" width="2000" height="948" alt="The magnifier over a celadon vase on a web page, with its color under it">
+      </div>
+    </div>
+  </div>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Point, click, paste</h2>
+        <p>No account, no setup, and no access to your websites.</p>
+      </div>
+      <div class="trio">
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 4 5 5-9.5 9.5H6v-4.5z"/><path d="M13 6l5 5"/><path d="M6 18.5 3.5 21"/></svg></div><h3>1. Start it</h3><p>Click Color Picker in the Safari toolbar, then Pick a Color, or press ⌃⇧C. On iPhone and iPad, it’s in the page menu beside the address.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/><path d="M11 8.5v5M8.5 11h5"/></svg></div><h3>2. Point</h3><p>A magnifier shows the page’s real pixels under the pointer, or above your finger, with the color’s value beside it.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16H8"/></svg></div><h3>3. It’s copied</h3><p>Click, or lift your finger: the color is on the clipboard in your format, and a panel shows it in all the others.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="soft">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Pixels, CSS and whole palettes</h2>
+        <p>Pixel mode gives you what was painted. Element mode gives you what was written.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy">
+          <p class="kicker">Formats</p>
+          <h3>Copy it the way your project needs it</h3>
+          <p>Sixteen formats, each one tap away. Choose one, and every pick is copied in it.</p>
+          <ul class="ticks">
+            <li>HEX, RGB, HSL, HWB, OKLCH, OKLAB, LAB, LCH and Display P3</li>
+            <li>SwiftUI, UIKit, AppKit, Jetpack Compose and Flutter, Android XML</li>
+            <li>The nearest Tailwind class and CSS color name</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="img/2-formats.jpg" width="2000" height="1068" alt="The result panel with one color in sixteen formats" loading="lazy"></div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-copy">
+          <p class="kicker">Element mode</p>
+          <h3>The exact CSS of any element</h3>
+          <p>Point at a button or a heading and see the colors its author wrote: background, text and border, such as <code>oklch(76% 0.075 165)</code> or a hex code, not an approximation.</p>
+          <ul class="ticks">
+            <li>Through half-transparent layers, it finds the background you actually see</li>
+            <li>WCAG contrast with AA, AAA and AA Large, and the APCA score</li>
+            <li>Tints and shades of every color, ready to copy</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="img/3-element.jpg" width="2000" height="1068" alt="Element mode outlining a glaze swatch, with its colors and contrast" loading="lazy"></div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy">
+          <p class="kicker">Page palette</p>
+          <h3>A page’s whole palette</h3>
+          <p>Every color a page uses, ordered by how much of the page it covers, and the colors in its pictures.</p>
+          <ul class="ticks">
+            <li>The page’s color variables from <code>:root</code>, with their names</li>
+            <li>Copy them as CSS variables, or save them as a palette</li>
+            <li>⌃⇧P on a Mac opens it straight away</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="img/4-palette.jpg" width="2000" height="1068" alt="A page's colors and its color variables" loading="lazy"></div>
+      </div>
+
+      <div class="feature flip">
+        <div class="feature-copy">
+          <p class="kicker">The library</p>
+          <h3>Every pick, every palette</h3>
+          <p>Your last 300 colors, with the site each came from, and palettes you name, edit and add to: type a color, or paste a whole list.</p>
+          <ul class="ticks">
+            <li>Delete with Undo, save picks as a palette</li>
+            <li>Export as CSS variables, SCSS, Tailwind 4 <code>@theme</code>, JSON, SwiftUI or Android XML</li>
+            <li>Or as a GIMP or Inkscape palette, or plain text</li>
+          </ul>
+        </div>
+        <div class="shot"><img src="img/5-library.jpg" width="2000" height="1068" alt="The library with recent picks, palettes and the export menu" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="details">
+    <div class="wrap">
+      <div class="section-head"><h2>And all the small things</h2></div>
+      <div class="grid">
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div><h3>No website access</h3><p>It sees a page only when you ask it to pick a color there. No account, no analytics, nothing sent anywhere.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3 5 13.5h6L10 21l8-10.5h-6z"/></svg></div><h3>No lag</h3><p>The page is captured once; every move after that is instant. Scroll, and it takes a new picture when the page settles.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="12" height="15" rx="2"/><rect x="15" y="9" width="6" height="11" rx="1.5"/></svg></div><h3>Mac, iPhone and iPad</h3><p>One purchase for all three. On a touch screen, the magnifier sits above your finger.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10h1M11 10h1M15 10h2M7 14h10"/></svg></div><h3>Keyboard</h3><p>Arrow keys move one screen pixel; Return picks. Average 3×3 or 5×5 pixels for photos.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18V3Z"/><circle cx="12" cy="12" r="9"/></svg></div><h3>Light and dark</h3><p>The magnifier, the panel and the library follow your device.</p></div>
+        <div class="tile"><div class="icon"><svg class="line" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h9"/></svg></div><h3>Eleven languages</h3><p>English, German, French, Spanish, Italian, Portuguese, Japanese, Korean and Chinese.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="soft">
+    <div class="wrap">
+      <div class="price-card">
+        <img src="img/icon.png" alt="">
+        <h2>Color Picker for Safari</h2>
+        <p class="price">€1.99 <small>once</small></p>
+        <ul class="ticks">
+          <li>One-time purchase, no subscription, no account</li>
+          <li>Mac, iPhone and iPad with one purchase</li>
+          <li>macOS 12 or later, iOS and iPadOS 16.4 or later, with Safari 16.4 or later</li>
+          <li>Every feature included</li>
+        </ul>
+        <div><a class="btn btn-primary" data-buy="Buy on the App Store" href="#pricing"><span data-buy-label>Coming soon to the App Store</span></a></div>
+        <p class="fine">Prices in other countries are set by the App Store.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head"><h2>Questions</h2></div>
+      <div class="faq">
+        <details>
+          <summary>Does it need access to the websites I visit?</summary>
+          <p>No. Safari lets Color Picker into the current page only when you click its button or press its shortcut, and only for that page. It doesn’t run on the pages you open otherwise, and it never sees your browsing history.</p>
+        </details>
+        <details>
+          <summary>What’s the difference between pixel and element mode?</summary>
+          <p>Pixel mode reads the screen: whatever is painted under the pointer, including photos, gradients and shadows. Element mode reads the page’s CSS: the exact colors the author wrote for the element under the pointer, such as an <code>oklch()</code> value. Switch between them in the bar at the top of the page, or with P and E.</p>
+        </details>
+        <details>
+          <summary>Why is a pixel slightly different from the CSS value?</summary>
+          <p>Edges, text and images are smoothed when they’re drawn, so the pixel under the pointer can be a blend. For a flat area, pixel mode gives the exact sRGB color. For the value the author wrote, including colors wider than sRGB, use element mode.</p>
+        </details>
+        <details>
+          <summary>Which pages can I pick on?</summary>
+          <p>Any web page. Safari doesn’t let extensions into its own pages, such as Settings or the Start Page. On the few pages that block an extension’s clicks, such as raw files on GitHub, Color Picker lists the page’s colors as text instead.</p>
+        </details>
+        <details>
+          <summary>Do my colors sync between my Mac and iPhone?</summary>
+          <p>Not yet. Each device keeps its own picks and palettes. To move a palette, export it as plain text, then paste the list into a palette on the other device.</p>
+        </details>
+        <details>
+          <summary>What data does it collect?</summary>
+          <p>None. Read the <a href="privacy.html">privacy policy</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span data-year>2026</span> Dmitry Skorinko</span>
+    <nav aria-label="Footer"><a href="demo.html">Demo page</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  </div>
+</footer>
+
+</body>
+</html>
